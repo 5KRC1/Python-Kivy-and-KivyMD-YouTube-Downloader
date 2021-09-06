@@ -8,7 +8,7 @@ A simple and nice responsive cross-platform UI YouTube video downloader can down
 `pip install -r requirements.txt`  
 
 ## Video
-[watch on YouTube part 1 ](https://youtu.be/QFu6nMjN5tg)
+[watch on YouTube part 1 ](https://youtu.be/QFu6nMjN5tg)    
 [watch on YouTube part 2 ](https://youtu.be/CmDPNSMpoQo)
 
 ## Previews 
