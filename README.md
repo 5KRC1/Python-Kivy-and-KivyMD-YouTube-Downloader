@@ -29,4 +29,3 @@ A simple and nice responsive cross-platform UI YouTube video downloader can down
    
     
 
-![Alt Text](app-gif.gif)
