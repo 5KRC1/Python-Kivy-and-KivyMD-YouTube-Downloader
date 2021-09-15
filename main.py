@@ -75,8 +75,6 @@ class DownloadCard(MDCard):
             app.isLoading = False
             self.remove_from_list()
             print(e)
-            print('####################################')
-            print(self.yt.streams.get_highest_resolution())
             toast(text=f'Some thing wrong {e}')
 
     def download_video(self, yt, operation):
