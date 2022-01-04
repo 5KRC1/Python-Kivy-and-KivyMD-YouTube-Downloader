@@ -84,7 +84,7 @@ class DownloadCard(MDCard):
             if operation == "Video and Audio":
                 yt.streams.get_highest_resolution().download(output_path=app.output_path)
             else:
-                user_streams = yt.streams.filte(only_audio=True).first()
+                user_streams = yt.streams.filter(only_audio=True).first()
                 user_streams.download(output_path=app.output_path, filename=yt.title + '.mp3')
         except Exception as e:
             app = MDApp.get_running_app()
